@@ -1,6 +1,6 @@
 const FavoritePage = () => {
     return (
-      <div>FavoritePage</div>
+      <div>Your cars</div>
     )
     
   }
