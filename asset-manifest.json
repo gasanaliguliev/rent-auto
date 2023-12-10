@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/rent-auto/static/css/main.31d6cfe0.css",
-    "main.js": "/rent-auto/static/js/main.2600b04a.js",
+    "main.css": "/rent-auto/static/css/main.ed116860.css",
+    "main.js": "/rent-auto/static/js/main.371c05a6.js",
+    "static/media/hero-image.png": "/rent-auto/static/media/hero-image.99a8384c28e6bb016d00.png",
     "index.html": "/rent-auto/index.html",
-    "main.2600b04a.js.map": "/rent-auto/static/js/main.2600b04a.js.map"
+    "main.ed116860.css.map": "/rent-auto/static/css/main.ed116860.css.map",
+    "main.371c05a6.js.map": "/rent-auto/static/js/main.371c05a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.2600b04a.js"
+    "static/css/main.ed116860.css",
+    "static/js/main.371c05a6.js"
   ]
 }
