@@ -6,7 +6,7 @@ const Header = () => {
   return (
     
     <HeaderContainer>
-      <Image src={icon} alt="car-icon" width={100} />
+      <Image src={icon} alt="car-icon" width={80} />
       <Nav>
         <NavLinkStyled to="/">Home</NavLinkStyled>
         <NavLinkStyled to="/catalog">Catalog</NavLinkStyled>
