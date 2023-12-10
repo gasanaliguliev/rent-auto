@@ -1,8 +1,11 @@
+import Favorite from '../components/Favorite/Favorite';
+
 const FavoritePage = () => {
-    return (
-      <div>Your cars</div>
-    )
-    
-  }
-   
-  export default FavoritePage 
+  return (
+    <>
+      <Favorite />
+    </>
+  );
+};
+
+export default FavoritePage;
