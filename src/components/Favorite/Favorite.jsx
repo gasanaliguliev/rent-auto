@@ -17,7 +17,6 @@ import {
 import { AiFillHeart, AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';
 import { removeFromFavorite } from '../../redux/operations';
-import { ToastContainer } from 'react-toastify';
 
 const Favorite = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,18 +48,6 @@ const Favorite = () => {
 
   return (
     <>
-      <ToastContainer
-        position="top-right"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      />
       {favoriteCars.length !== 0 ? (
         <Section>
           <List>
@@ -124,7 +111,7 @@ const Favorite = () => {
         </Section>
       ) : (
         <h1 style={{ textAlign: 'center', paddingTop: 80, paddingBottom: 180 }}>
-          NO cars in favorite :( please add first car from catalog :)
+          NO cars in favorite!
         </h1>
       )}
 

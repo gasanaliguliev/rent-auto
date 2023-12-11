@@ -33,7 +33,7 @@ import {
   loadMore,
   removeFromFavorite,
 } from '../../redux/operations';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { changeFilter } from '../../redux/filterOperations';
 
 const options = [
@@ -114,18 +114,6 @@ const CatalogList = () => {
 
   return (
     <>
-      <ToastContainer
-        position="top-right"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      />
       <DropdownBox>
         <div
           style={{
