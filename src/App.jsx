@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route, Navigate} from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import HomePage from './pages/HomePage';
 import CatalogPages from './pages/CatalogPage';
@@ -14,6 +14,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="catalog" element={<CatalogPages />} />
           <Route path="favorite" element={<FavoritePage />} />
+          <Route path="*" element={<Navigate to={'/'} />} />
         </Route>
       </Routes>
     </div>
