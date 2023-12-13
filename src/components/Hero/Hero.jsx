@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroTitle>
-       World's #1 Reantal cars
+       World's #1 Cars Rental 
       </HeroTitle>
     </HeroContainer>
   );
